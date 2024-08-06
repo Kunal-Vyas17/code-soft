@@ -8,7 +8,7 @@ class game_1{
     public int number;
     public int inputNumber;
     public int noOfGuesses = 0;
-
+   
     public int getNoOfGuesses(){
         return noOfGuesses;
     }
@@ -16,7 +16,7 @@ class game_1{
         this.noOfGuesses = noOfGuesses;
     }
 
-// CONSTRUCTOR generate random number
+// CONSTRUCTOR generate random number 
      game_1(){
     Random ran = new Random();
 
